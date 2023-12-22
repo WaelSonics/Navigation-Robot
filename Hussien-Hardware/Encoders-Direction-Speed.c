@@ -171,3 +171,19 @@ void Stop(){
   digitalWrite(RMSpeed, LOW);
   digitalWrite(LMSpeed, LOW);
 }
+
+
+
+/*
+ENA  Orange
+IN1  BLUE   
+IN2  RED
+
+ENB  Yellow
+IN3  Purple
+In4  Green
+
+
+GND Black from driver
+GREY +5volts from driver
+*/
