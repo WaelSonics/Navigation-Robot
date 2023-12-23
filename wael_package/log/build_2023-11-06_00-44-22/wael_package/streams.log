@@ -1,0 +1,21 @@
+[0.046s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package
+[0.274s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] Traceback (most recent call last):
+[0.611s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.612s]     from ament_package.templates import get_environment_hook_template_path
+[0.612s] ModuleNotFoundError: No module named 'ament_package'
+[0.630s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.631s]   execute_process(/usr/bin/python3.10
+[0.631s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.631s]   /home/wael/wael_ws/wael_package/build/wael_package/ament_cmake_package_templates/templates.cmake)
+[0.631s]   returned error code 1
+[0.631s] Call Stack (most recent call first):
+[0.631s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.631s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.631s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.632s]   CMakeLists.txt:9 (find_package)
+[0.632s] 
+[0.632s] [0m
+[0.632s] -- Configuring incomplete, errors occurred!
+[0.632s] See also "/home/wael/wael_ws/wael_package/build/wael_package/CMakeFiles/CMakeOutput.log".
+[0.635s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '1': /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package

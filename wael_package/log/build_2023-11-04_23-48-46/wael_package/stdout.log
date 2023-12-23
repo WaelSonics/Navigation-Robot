@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_control[0m
+[100%] Built target robot_control
+-- Install configuration: ""
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/lib/wael_package/robot_control
+-- Set runtime path of "/home/wael/wael_ws/wael_package/install/wael_package/lib/wael_package/robot_control" to ""
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml

@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/fyp_kal_robot_description.urdf
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/display.launch.py
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz/urdf_config.rviz
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml

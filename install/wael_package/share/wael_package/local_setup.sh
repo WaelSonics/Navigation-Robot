@@ -1,0 +1,1 @@
+/home/wael/wael_ws/build/wael_package/ament_cmake_environment_hooks/local_setup.sh

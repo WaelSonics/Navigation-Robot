@@ -1,0 +1,29 @@
+[0.274s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.014s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.046s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+[1.055s] -- Install configuration: ""
+[1.055s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src
+[1.064s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf
+[1.065s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/fyp_kal_robot_description.urdf
+[1.065s] -- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/kal_gazebo.xacro
+[1.065s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch
+[1.065s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/display.launch2.py
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/display.launch.py
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz/urdf_config.rviz
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+[1.066s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+[1.067s] -- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+[1.067s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+[1.068s] -- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml
+[1.069s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package

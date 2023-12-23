@@ -1,0 +1,37 @@
+[0.201s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[0.916s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[0.949s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+[0.986s] -- Install configuration: ""
+[0.999s] -- Execute custom install script
+[1.047s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_LIDAR.urdf
+[1.058s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_fyp (copy).urdf
+[1.058s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_fyp.urdf
+[1.059s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/urdf_lidar_with_sections/base.xacro
+[1.059s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/urdf_lidar_with_sections/gazebo.xacro
+[1.059s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/urdf_lidar_with_sections/main.urdf
+[1.060s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/urdf_lidar_with_sections/sensors.xacro
+[1.060s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/urdf_lidar_with_sections/wheels.xacro
+[1.061s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/fyp_kal_robot_description.urdf
+[1.061s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/kal_gazebo.xacro
+[1.062s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/new.display.launch.py
+[1.062s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch.py
+[1.062s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch2.py
+[1.063s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz/urdf_config.rviz
+[1.071s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/config/ekf.yaml
+[1.077s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/world/my_world.sdf
+[1.078s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+[1.079s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+[1.079s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+[1.080s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+[1.080s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+[1.081s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+[1.081s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+[1.082s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+[1.082s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+[1.083s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+[1.083s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+[1.093s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+[1.093s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+[1.093s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+[1.094s] -- Up-to-date symlink: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml
+[1.096s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package

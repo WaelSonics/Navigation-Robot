@@ -1,0 +1,47 @@
+[0.082s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package
+[0.094s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.415s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.110s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.110s] -- Configured cppcheck include dirs: 
+[1.110s] -- Configured cppcheck exclude dirs and/or files: 
+[1.123s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.135s] -- Added test 'lint_cmake' to check CMake code style
+[1.145s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.198s] -- Added test 'uncrustify' to check C / C++ code style
+[1.198s] -- Configured uncrustify additional arguments: 
+[1.203s] -- Added test 'xmllint' to check XML markup files
+[1.237s] -- Configuring done
+[1.304s] -- Generating done
+[1.305s] -- Build files have been written to: /home/wael/wael_ws/wael_package/build/wael_package
+[1.308s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package
+[1.310s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.349s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.384s] Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+[1.392s] -- Install configuration: ""
+[1.392s] -- Execute custom install script
+[1.393s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_fyp (copy).urdf
+[1.402s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_fyp.urdf
+[1.411s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/fyp_kal_robot_description.urdf
+[1.421s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/kal_gazebo.xacro
+[1.431s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/new.display.launch.py
+[1.440s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch.py
+[1.450s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch2.py
+[1.459s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz/urdf_config.rviz
+[1.469s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/config/ekf.yaml
+[1.478s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+[1.487s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+[1.496s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+[1.506s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+[1.515s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+[1.525s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+[1.535s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+[1.545s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+[1.555s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+[1.564s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+[1.573s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+[1.582s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+[1.592s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+[1.601s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+[1.611s] -- Symlinking: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml
+[1.622s] Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package

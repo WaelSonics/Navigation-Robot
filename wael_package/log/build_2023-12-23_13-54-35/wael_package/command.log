@@ -1,0 +1,4 @@
+Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package

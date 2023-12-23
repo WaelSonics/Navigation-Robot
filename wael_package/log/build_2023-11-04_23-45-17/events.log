@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (wael_package) JobQueued: {'identifier': 'wael_package', 'dependencies': OrderedDict()}
+[0.000442] (wael_package) JobStarted: {'identifier': 'wael_package'}
+[0.100688] (-) TimerEvent: {}
+[0.106312] (wael_package) JobProgress: {'identifier': 'wael_package', 'progress': 'cmake'}
+[0.106998] (wael_package) JobProgress: {'identifier': 'wael_package', 'progress': 'build'}
+[0.107806] (wael_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wael/wael_ws/wael_package/build/wael_package', '--', '-j4', '-l4'], 'cwd': '/home/wael/wael_ws/wael_package/build/wael_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wael'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wael'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '17186'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/wael/wael_ws/wael_package/install:/home/wael/wael_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wael'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wael'), ('GAZBEO_MODEL_PATH', ':/home/wael/turtlebot3_ws/src/turtlebot3_simulations/turtle_bot3_gazebo/models'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wael-Latitude-E7440:@/tmp/.ICE-unix/1078,unix/wael-Latitude-E7440:/tmp/.ICE-unix/1078'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dee10592_3a52_44fd_a82d_ef8ef5a78cd6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VPCWD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.518'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/wael/wael_ws/wael_package/install/wael_package:/home/wael/wael_ws/install/wael_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wael/wael_ws/wael_package/build/wael_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/wael/wael_ws/wael_package/install/wael_package:/home/wael/wael_ws/install/wael_package:/opt/ros/humble')]), 'shell': False}
+[0.157862] (wael_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_control\x1b[0m\n'}
+[0.177775] (wael_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_control.dir/src/robot_control.cpp.o\x1b[0m\n'}
+[0.200796] (-) TimerEvent: {}
+[0.301125] (-) TimerEvent: {}
+[0.401466] (-) TimerEvent: {}
+[0.501800] (-) TimerEvent: {}
+[0.602142] (-) TimerEvent: {}
+[0.702485] (-) TimerEvent: {}
+[0.802829] (-) TimerEvent: {}
+[0.903153] (-) TimerEvent: {}
+[1.003476] (-) TimerEvent: {}
+[1.103795] (-) TimerEvent: {}
+[1.204128] (-) TimerEvent: {}
+[1.304519] (-) TimerEvent: {}
+[1.404847] (-) TimerEvent: {}
+[1.505187] (-) TimerEvent: {}
+[1.605460] (-) TimerEvent: {}
+[1.705755] (-) TimerEvent: {}
+[1.806051] (-) TimerEvent: {}
+[1.906439] (-) TimerEvent: {}
+[2.006788] (-) TimerEvent: {}
+[2.107129] (-) TimerEvent: {}
+[2.207515] (-) TimerEvent: {}
+[2.307882] (-) TimerEvent: {}
+[2.408209] (-) TimerEvent: {}
+[2.508535] (-) TimerEvent: {}
+[2.608853] (-) TimerEvent: {}
+[2.709191] (-) TimerEvent: {}
+[2.809565] (-) TimerEvent: {}
+[2.909914] (-) TimerEvent: {}
+[3.010326] (-) TimerEvent: {}
+[3.110711] (-) TimerEvent: {}
+[3.211039] (-) TimerEvent: {}
+[3.311417] (-) TimerEvent: {}
+[3.412441] (-) TimerEvent: {}
+[3.472083] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode::RobotControlNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.472516] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:17:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_some(RobotControlNode*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.472674] (wael_package) StderrLine: {'line': b'   17 |             \x1b[01;31m\x1b[Krclcpp::spin_some(this)\x1b[m\x1b[K;\n'}
+[3.472814] (wael_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.472946] (wael_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.473272] (wael_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:1\x1b[m\x1b[K:\n'}
+[3.473424] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.473559] (wael_package) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.473683] (wael_package) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.473805] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.473955] (wael_package) StderrLine: {'line': b'   35 | spin_some(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.474083] (wael_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.474214] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.474348] (wael_package) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.474480] (wael_package) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.474610] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.474747] (wael_package) StderrLine: {'line': b'   39 | spin_some(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.474877] (wael_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.475010] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:26:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_some(RobotControlNode*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475144] (wael_package) StderrLine: {'line': b'   26 |             \x1b[01;31m\x1b[Krclcpp::spin_some(this)\x1b[m\x1b[K;\n'}
+[3.475254] (wael_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.475356] (wael_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.475460] (wael_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:1\x1b[m\x1b[K:\n'}
+[3.475562] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.475667] (wael_package) StderrLine: {'line': b'   35 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.475772] (wael_package) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.475871] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.475987] (wael_package) StderrLine: {'line': b'   35 | spin_some(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.476137] (wael_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.476245] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.476358] (wael_package) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[Kspin_some\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.476462] (wael_package) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.476577] (wael_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotControlNode*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.476741] (wael_package) StderrLine: {'line': b'   39 | spin_some(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.476869] (wael_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.512552] (-) TimerEvent: {}
+[3.612904] (-) TimerEvent: {}
+[3.713368] (-) TimerEvent: {}
+[3.813701] (-) TimerEvent: {}
+[3.913985] (-) TimerEvent: {}
+[4.014268] (-) TimerEvent: {}
+[4.114540] (-) TimerEvent: {}
+[4.214816] (-) TimerEvent: {}
+[4.315086] (-) TimerEvent: {}
+[4.415354] (-) TimerEvent: {}
+[4.511779] (wael_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_control.dir/build.make:76: CMakeFiles/robot_control.dir/src/robot_control.cpp.o] Error 1\n'}
+[4.512257] (wael_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_control.dir/all] Error 2\n'}
+[4.512503] (wael_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.514852] (wael_package) CommandEnded: {'returncode': 2}
+[4.515390] (-) TimerEvent: {}
+[4.615977] (-) TimerEvent: {}
+[4.630223] (wael_package) JobEnded: {'identifier': 'wael_package', 'rc': 2}
+[4.640783] (-) EventReactorShutdown: {}

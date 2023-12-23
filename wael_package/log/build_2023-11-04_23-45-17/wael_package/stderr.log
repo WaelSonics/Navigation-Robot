@@ -1,0 +1,38 @@
+[01m[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:[m[K In constructor ‘[01m[KRobotControlNode::RobotControlNode()[m[K’:
+[01m[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:17:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_some(RobotControlNode*)[m[K’
+   17 |             [01;31m[Krclcpp::spin_some(this)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   35 | [01;36m[Kspin_some[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotControlNode*[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   35 | spin_some([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)[m[K’
+   39 | [01;36m[Kspin_some[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotControlNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+   39 | spin_some([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:26:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_some(RobotControlNode*)[m[K’
+   26 |             [01;31m[Krclcpp::spin_some(this)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wael/wael_ws/wael_package/src/robot_control.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   35 | [01;36m[Kspin_some[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:35:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotControlNode*[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   35 | spin_some([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin_some(rclcpp::Node::SharedPtr)[m[K’
+   39 | [01;36m[Kspin_some[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:39:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotControlNode*[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+   39 | spin_some([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_control.dir/build.make:76: CMakeFiles/robot_control.dir/src/robot_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

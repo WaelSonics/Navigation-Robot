@@ -1,0 +1,43 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wael/wael_ws/wael_package/build/wael_package
+-- Install configuration: ""
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/fyp_kal_robot_description.urdf
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/urdf/kal_gazebo.xacro
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/src/description/new_fyp.urdf
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch2.py
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/old/display.launch.py
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/launch/new.display.launch.py
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/rviz/urdf_config.rviz
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.sh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/environment/path.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.bash
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.sh
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.zsh
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/local_setup.dsv
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/ament_index/resource_index/packages/wael_package
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+-- Up-to-date: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+-- Installing: /home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.xml

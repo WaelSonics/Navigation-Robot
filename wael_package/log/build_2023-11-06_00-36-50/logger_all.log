@@ -1,0 +1,102 @@
+[0.819s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.819s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdbe27faef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdbe27fb4f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdbe27fb4f0>>)
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.863s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wael/wael_ws/wael_package'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'wael_package'
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_target' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'wael_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.992s] DEBUG:colcon.colcon_core.verb:Building package 'wael_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wael/wael_ws/wael_package/build/wael_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wael/wael_ws/wael_package/install/wael_package', 'merge_install': False, 'path': '/home/wael/wael_ws/wael_package', 'symlink_install': False, 'test_result_base': None}
+[1.003s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.015s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wael/wael_ws/wael_package' with build type 'ament_cmake'
+[1.015s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wael/wael_ws/wael_package'
+[1.029s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': /usr/bin/cmake --build /home/wael/wael_ws/wael_package/build/wael_package -- -j4 -l4
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+[1.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wael_package)
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '0': /usr/bin/cmake --install /home/wael/wael_ws/wael_package/build/wael_package
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package' for CMake module files
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('wael_package', 'cmake_prefix_path')
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/bin'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib/pkgconfig/wael_package.pc'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib/python3.10/site-packages'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/bin'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.bash'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wael/wael_ws/wael_package/install/wael_package/share/colcon-core/packages/wael_package)
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wael_package)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package' for CMake module files
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package' for CMake config files
+[1.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('wael_package', 'cmake_prefix_path')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/hook/cmake_prefix_path.sh'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib/pkgconfig/wael_package.pc'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/lib/python3.10/site-packages'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/wael/wael_ws/wael_package/install/wael_package/bin'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.bash'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/wael/wael_ws/wael_package/install/wael_package/share/wael_package/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wael/wael_ws/wael_package/install/wael_package/share/colcon-core/packages/wael_package)
+[1.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.281s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.299s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.315s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wael/wael_ws/wael_package/install/local_setup.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wael/wael_ws/wael_package/install/_local_setup_util_ps1.py'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wael/wael_ws/wael_package/install/setup.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wael/wael_ws/wael_package/install/local_setup.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wael/wael_ws/wael_package/install/_local_setup_util_sh.py'
+[1.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wael/wael_ws/wael_package/install/setup.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wael/wael_ws/wael_package/install/local_setup.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wael/wael_ws/wael_package/install/setup.bash'
+[1.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wael/wael_ws/wael_package/install/local_setup.zsh'
+[1.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wael/wael_ws/wael_package/install/setup.zsh'

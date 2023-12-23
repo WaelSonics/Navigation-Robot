@@ -1,0 +1,17 @@
+/home/wael/wael_ws/install/wael_package/share/wael_package/launch/listener.launch.py
+/home/wael/wael_ws/install/wael_package/share/wael_package/launch/talker.launch.py
+/home/wael/wael_ws/install/wael_package/share/ament_index/resource_index/package_run_dependencies/wael_package
+/home/wael/wael_ws/install/wael_package/share/ament_index/resource_index/parent_prefix_path/wael_package
+/home/wael/wael_ws/install/wael_package/share/wael_package/environment/ament_prefix_path.sh
+/home/wael/wael_ws/install/wael_package/share/wael_package/environment/ament_prefix_path.dsv
+/home/wael/wael_ws/install/wael_package/share/wael_package/environment/path.sh
+/home/wael/wael_ws/install/wael_package/share/wael_package/environment/path.dsv
+/home/wael/wael_ws/install/wael_package/share/wael_package/local_setup.bash
+/home/wael/wael_ws/install/wael_package/share/wael_package/local_setup.sh
+/home/wael/wael_ws/install/wael_package/share/wael_package/local_setup.zsh
+/home/wael/wael_ws/install/wael_package/share/wael_package/local_setup.dsv
+/home/wael/wael_ws/install/wael_package/share/wael_package/package.dsv
+/home/wael/wael_ws/install/wael_package/share/ament_index/resource_index/packages/wael_package
+/home/wael/wael_ws/install/wael_package/share/wael_package/cmake/wael_packageConfig.cmake
+/home/wael/wael_ws/install/wael_package/share/wael_package/cmake/wael_packageConfig-version.cmake
+/home/wael/wael_ws/install/wael_package/share/wael_package/package.xml

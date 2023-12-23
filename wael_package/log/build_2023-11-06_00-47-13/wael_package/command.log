@@ -1,0 +1,2 @@
+Invoking command in '/home/wael/wael_ws/wael_package/build/wael_package': /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package
+Invoked command in '/home/wael/wael_ws/wael_package/build/wael_package' returned '1': /usr/bin/cmake /home/wael/wael_ws/wael_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wael/wael_ws/wael_package/install/wael_package
