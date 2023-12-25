@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot name="new_fyp_kal_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <!--Gazebo Colors Editing-->
+  <gazebo reference="chassis">
+    <material>Gazebo/White</material>
+  </gazebo>
+  <gazebo reference="top_layer">
+    <material>Gazebo/White</material>
+  </gazebo>
+  <gazebo reference="drivewhl_l_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="drivewhl_r_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="rearwhl_l_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="rearwhl_r_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="front_left_standoff">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="front_right_standoff">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="rear_left_standoff">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  <gazebo reference="rear_right_standoff">
+    <material>Gazebo/Yellow</material>
+  </gazebo>
+  
+<!--WORKING DIFF DRIVE NO FRICTION FOR WHEELS REAR-->
+<gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <left_joint>drivewhl_l_joint</left_joint>
+      <right_joint>drivewhl_r_joint</right_joint>
+      <wheel_separation>0.14</wheel_separation>
+      <wheel_diameter>0.12</wheel_diameter>
+      <max_wheel_torque>20</max_wheel_torque>
+      <max_wheel_acceleration>1.0</max_wheel_acceleration>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+    </plugin>
+  </gazebo>
+
+
+
+  <!--MAke the rear wheels with no friction to let the robot move smoothley-->
+  <gazebo reference="rearwhl_l_link">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <kp>1e9</kp>
+    <kd>1</kd>
+  </gazebo>
+  <gazebo reference="rearwhl_r_link">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <kp>1e9</kp>
+    <kd>1</kd>
+  </gazebo>  
+  
+</robot>

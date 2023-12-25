@@ -1,11 +1,13 @@
-import launch
-from launch.substitutions import Command, LaunchConfiguration
-import launch_ros
 import os
+import launch
+import launch_ros
+from launch.substitutions import Command, LaunchConfiguration
+
+
 
 def generate_launch_description():
     pkg_share = launch_ros.substitutions.FindPackageShare(package='wael_package').find('wael_package')
-    default_model_path = os.path.join(pkg_share, 'src/description/new_LIDAR.urdf')
+    default_model_path = os.path.join(pkg_share, 'src/description/main.urdf')		#'src/description/new_LIDAR.urdf'
     default_rviz_config_path = os.path.join(pkg_share, 'rviz/urdf_config.rviz')
     world_path=os.path.join(pkg_share, 'world/my_world.sdf'),
 
