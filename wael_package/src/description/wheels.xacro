@@ -40,6 +40,18 @@
   <xacro:wheel fixedOrCont="fixed" prefix="rearwhl_l" x_reflect="-1" y_reflect="1" />
   <xacro:wheel fixedOrCont="fixed" prefix="rearwhl_r" x_reflect="-1" y_reflect="-1" />
 
-  
+  <!--MAke the rear wheels with no friction to let the robot move smoothley-->
+  <gazebo reference="rearwhl_l_link">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <kp>1e9</kp>
+    <kd>1</kd>
+  </gazebo>
+  <gazebo reference="rearwhl_r_link">
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <kp>1e9</kp>
+    <kd>1</kd>
+  </gazebo>  
 
 </robot>

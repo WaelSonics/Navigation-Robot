@@ -32,6 +32,9 @@
   <gazebo reference="rear_right_standoff">
     <material>Gazebo/Yellow</material>
   </gazebo>
+  <gazebo reference="lidar_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
   
 <!--WORKING DIFF DRIVE NO FRICTION FOR WHEELS REAR-->
 <gazebo>
@@ -50,20 +53,4 @@
     </plugin>
   </gazebo>
 
-
-
-  <!--MAke the rear wheels with no friction to let the robot move smoothley-->
-  <gazebo reference="rearwhl_l_link">
-    <mu1>0.0</mu1>
-    <mu2>0.0</mu2>
-    <kp>1e9</kp>
-    <kd>1</kd>
-  </gazebo>
-  <gazebo reference="rearwhl_r_link">
-    <mu1>0.0</mu1>
-    <mu2>0.0</mu2>
-    <kp>1e9</kp>
-    <kd>1</kd>
-  </gazebo>  
-  
 </robot>
