@@ -8,6 +8,10 @@
   <xacro:property name="wheel_zoff" value="0.0"/>
   <xacro:property name="wheel_xoff" value="0.0"/>
 
+<!-- keep in mind if there is problem in slippery between Gazebo and RVIZ 
+  you can change the collision gemetry of the wheels into sphere without toaching the visuals
+  Last time I checked the rotation it is pretty good no need -->
+
   <!-- Wheels Xacro and instances-->
   <xacro:macro name="wheel" params="prefix x_reflect y_reflect fixedOrCont">
     <link name="${prefix}_link">
