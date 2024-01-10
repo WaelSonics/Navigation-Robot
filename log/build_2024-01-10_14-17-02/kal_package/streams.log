@@ -1,0 +1,47 @@
+[0.095s] Invoking command in '/home/wael/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/kal_ws/build/kal_package -- -j4 -l4
+[0.137s] Invoked command in '/home/wael/kal_ws/build/kal_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wael/kal_ws/build/kal_package -- -j4 -l4
+[0.178s] Invoking command in '/home/wael/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/kal_ws/build/kal_package
+[0.189s] -- Install configuration: ""
+[0.189s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src
+[0.190s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description
+[0.190s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/base.xacro
+[0.190s] -- Installing: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/wheels.xacro
+[0.190s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/main.urdf
+[0.191s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/lidar.xacro
+[0.191s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/sensors.xacro
+[0.191s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/inertial_fns.xacro
+[0.191s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/imu.xacro
+[0.191s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control.xacro
+[0.192s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/src/description/gazebo.xacro
+[0.192s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch
+[0.192s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch/localization_launch.py
+[0.192s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch/online_async_launch.py
+[0.192s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch/test_launch.py
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch/navigation_launch.py
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/launch/rsp.launch.py
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/rviz
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/my_controllers.yaml
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/mapper_params_localization.yaml
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/nav2_params.yaml
+[0.193s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/twist_mux.yaml
+[0.194s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/mapper_params_online_async.yaml
+[0.194s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/config/gazebo_params.yaml
+[0.195s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/world
+[0.195s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/world/waell.sdf
+[0.196s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/ament_index/resource_index/package_run_dependencies/kal_package
+[0.196s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/ament_index/resource_index/parent_prefix_path/kal_package
+[0.196s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.sh
+[0.196s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.dsv
+[0.196s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/environment/path.sh
+[0.197s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/environment/path.dsv
+[0.197s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/local_setup.bash
+[0.197s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/local_setup.sh
+[0.197s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/local_setup.zsh
+[0.198s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/local_setup.dsv
+[0.198s] -- Installing: /home/wael/kal_ws/install/kal_package/share/kal_package/package.dsv
+[0.198s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/ament_index/resource_index/packages/kal_package
+[0.198s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig.cmake
+[0.199s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig-version.cmake
+[0.199s] -- Up-to-date: /home/wael/kal_ws/install/kal_package/share/kal_package/package.xml
+[0.199s] Invoked command in '/home/wael/kal_ws/build/kal_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wael/kal_ws/build/kal_package
